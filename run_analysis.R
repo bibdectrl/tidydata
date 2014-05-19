@@ -48,3 +48,4 @@ second.set.of.data <- function(tidy.set) {
 
 tidy.data <- run_analysis("train/X_train.txt", "test/X_test.txt", "features.txt")
 second.set <- second.set.of.data(tidy.data)
+write.table(second.set, "tidyset.csv", sep=",")
