@@ -12,7 +12,7 @@ The column names for the values were cleaned up to remove capital letters, dashe
 
 The aggregate function was used to collect the average measurements for each participant and each activity.
 
-s**subject**
+**subject**
 
 **activity**
 
