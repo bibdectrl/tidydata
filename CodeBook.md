@@ -12,9 +12,9 @@ The column names for the values were cleaned up to remove capital letters, dashe
 
 The aggregate function was used to collect the average measurements for each participant and each activity.
 
-**subject**
+**subject**                                              INT between 1 and 30
 
-**activity**
+**activity**                                             STRING
 
 **t.body.acc.mean.x**
 
@@ -28,17 +28,17 @@ The aggregate function was used to collect the average measurements for each par
 
 **t.body.acc.std.z**
 
-**tgravity.acc.mean.x**
+**t.gravity.acc.mean.x**
 
-**tgravity.acc.mean.y**
+**t.gravity.acc.mean.y**
 
-**tgravity.acc.mean.z**
+**t.gravity.acc.mean.z**
 
-**tgravity.acc.std.x**
+**t.gravity.acc.std.x**
 
-**tgravity.acc.std.y**
+**t.gravity.acc.std.y**
 
-**tgravity.acc.std.z**
+**t.gravity.acc.std.z**
 
 **t.body.acc.jerk.mean.x**
 
@@ -80,9 +80,9 @@ The aggregate function was used to collect the average measurements for each par
 
 **t.body.acc.mag.std**
 
-**tgravity.acc.mag.mean**
+**t.gravity.acc.mag.mean**
 
-**tgravity.acc.mag.std**
+**t.gravity.acc.mag.std**
 
 **t.body.acc.jerk.mag.mean**
 
